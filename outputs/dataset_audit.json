@@ -1,0 +1,57 @@
+{
+  "total_rows": 18202,
+  "duplicates_removed": 414,
+  "label_counts": {
+    "ham": 11038,
+    "spam": 7164
+  },
+  "spam_ratio": 0.3935831227337655,
+  "source_counts": {
+    "sms_spam_collection": 5158,
+    "smsdata": 13000,
+    "synthetic_chat": 12,
+    "synthetic_email": 16,
+    "synthetic_social": 16
+  },
+  "source_label_counts": {
+    "sms_spam_collection": {
+      "ham": 4516,
+      "spam": 642
+    },
+    "smsdata": {
+      "ham": 6500,
+      "spam": 6500
+    },
+    "synthetic_chat": {
+      "ham": 6,
+      "spam": 6
+    },
+    "synthetic_email": {
+      "ham": 8,
+      "spam": 8
+    },
+    "synthetic_social": {
+      "ham": 8,
+      "spam": 8
+    }
+  },
+  "message_length": {
+    "min": 2,
+    "median": 93.0,
+    "mean": 91.77584880782332,
+    "max": 910
+  },
+  "word_count": {
+    "min": 1,
+    "median": 15.0,
+    "mean": 15.396000439512141,
+    "max": 171
+  },
+  "signal_counts": {
+    "contains_url": 2291,
+    "contains_phone_like_number": 476,
+    "contains_money_or_reward_terms": 6021,
+    "contains_urgency_terms": 4466,
+    "contains_otp_or_kyc": 544
+  }
+}

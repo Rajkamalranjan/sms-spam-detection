@@ -1,0 +1,330 @@
+{
+  "model_path": "F:\\New folder\\outputs\\best_sms_spam_model.joblib",
+  "random_state": 42,
+  "dataset_rows": 18202,
+  "duplicates_removed": 414,
+  "source_counts": {
+    "sms_spam_collection": 5158,
+    "smsdata": 13000,
+    "synthetic_chat": 12,
+    "synthetic_email": 16,
+    "synthetic_social": 16
+  },
+  "test_rows": 3641,
+  "overall": {
+    "rows": 3641,
+    "accuracy": 0.9958802526778358,
+    "precision": 0.9985935302390999,
+    "recall": 0.9909281228192603,
+    "f1": 0.9947460595446584,
+    "confusion_matrix": [
+      [
+        2206,
+        2
+      ],
+      [
+        13,
+        1420
+      ]
+    ],
+    "classification_report": {
+      "ham": {
+        "precision": 0.9941415051825147,
+        "recall": 0.9990942028985508,
+        "f1-score": 0.996611700926135,
+        "support": 2208.0
+      },
+      "spam": {
+        "precision": 0.9985935302390999,
+        "recall": 0.9909281228192603,
+        "f1-score": 0.9947460595446584,
+        "support": 1433.0
+      },
+      "accuracy": 0.9958802526778358,
+      "macro avg": {
+        "precision": 0.9963675177108073,
+        "recall": 0.9950111628589056,
+        "f1-score": 0.9956788802353967,
+        "support": 3641.0
+      },
+      "weighted avg": {
+        "precision": 0.9958937029045928,
+        "recall": 0.9958802526778358,
+        "f1-score": 0.9958774344884378,
+        "support": 3641.0
+      }
+    },
+    "roc_auc": 0.9998065778694742
+  },
+  "real_sms_only": {
+    "rows": 1028,
+    "accuracy": 0.9883268482490273,
+    "precision": 0.9848484848484849,
+    "recall": 0.9285714285714286,
+    "f1": 0.9558823529411765,
+    "confusion_matrix": [
+      [
+        886,
+        2
+      ],
+      [
+        10,
+        130
+      ]
+    ],
+    "classification_report": {
+      "ham": {
+        "precision": 0.9888392857142857,
+        "recall": 0.9977477477477478,
+        "f1-score": 0.9932735426008968,
+        "support": 888.0
+      },
+      "spam": {
+        "precision": 0.9848484848484849,
+        "recall": 0.9285714285714286,
+        "f1-score": 0.9558823529411765,
+        "support": 140.0
+      },
+      "accuracy": 0.9883268482490273,
+      "macro avg": {
+        "precision": 0.9868438852813852,
+        "recall": 0.9631595881595882,
+        "f1-score": 0.9745779477710367,
+        "support": 1028.0
+      },
+      "weighted avg": {
+        "precision": 0.9882957914329509,
+        "recall": 0.9883268482490273,
+        "f1-score": 0.9881813572386782,
+        "support": 1028.0
+      }
+    },
+    "roc_auc": 0.9958413770913771
+  },
+  "source_wise": {
+    "sms_spam_collection": {
+      "rows": 1028,
+      "accuracy": 0.9883268482490273,
+      "precision": 0.9848484848484849,
+      "recall": 0.9285714285714286,
+      "f1": 0.9558823529411765,
+      "confusion_matrix": [
+        [
+          886,
+          2
+        ],
+        [
+          10,
+          130
+        ]
+      ],
+      "classification_report": {
+        "ham": {
+          "precision": 0.9888392857142857,
+          "recall": 0.9977477477477478,
+          "f1-score": 0.9932735426008968,
+          "support": 888.0
+        },
+        "spam": {
+          "precision": 0.9848484848484849,
+          "recall": 0.9285714285714286,
+          "f1-score": 0.9558823529411765,
+          "support": 140.0
+        },
+        "accuracy": 0.9883268482490273,
+        "macro avg": {
+          "precision": 0.9868438852813852,
+          "recall": 0.9631595881595882,
+          "f1-score": 0.9745779477710367,
+          "support": 1028.0
+        },
+        "weighted avg": {
+          "precision": 0.9882957914329509,
+          "recall": 0.9883268482490273,
+          "f1-score": 0.9881813572386782,
+          "support": 1028.0
+        }
+      },
+      "roc_auc": 0.9958413770913771
+    },
+    "smsdata": {
+      "rows": 2603,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "confusion_matrix": [
+        [
+          1316,
+          0
+        ],
+        [
+          0,
+          1287
+        ]
+      ],
+      "classification_report": {
+        "ham": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1316.0
+        },
+        "spam": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1287.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 2603.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 2603.0
+        }
+      },
+      "roc_auc": 1.0
+    },
+    "synthetic_chat": {
+      "rows": 2,
+      "accuracy": 0.5,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "confusion_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "classification_report": {
+        "ham": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "spam": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1-score": 0.6666666666666666,
+          "support": 2.0
+        },
+        "accuracy": 0.5,
+        "macro avg": {
+          "precision": 0.5,
+          "recall": 0.25,
+          "f1-score": 0.3333333333333333,
+          "support": 2.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1-score": 0.6666666666666666,
+          "support": 2.0
+        }
+      }
+    },
+    "synthetic_email": {
+      "rows": 4,
+      "accuracy": 0.5,
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1": 0.5,
+      "confusion_matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "classification_report": {
+        "ham": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "f1-score": 0.5,
+          "support": 1.0
+        },
+        "spam": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.5,
+          "support": 3.0
+        },
+        "accuracy": 0.5,
+        "macro avg": {
+          "precision": 0.6666666666666666,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.5,
+          "support": 4.0
+        },
+        "weighted avg": {
+          "precision": 0.8333333333333334,
+          "recall": 0.5,
+          "f1-score": 0.5,
+          "support": 4.0
+        }
+      },
+      "roc_auc": 1.0
+    },
+    "synthetic_social": {
+      "rows": 4,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "confusion_matrix": [
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "classification_report": {
+        "ham": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 3.0
+        },
+        "spam": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        }
+      },
+      "roc_auc": 1.0
+    }
+  }
+}

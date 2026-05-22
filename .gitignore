@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Large generated model artifacts. Use Git LFS or external storage if needed.
+outputs/distilbert_checkpoints/
+outputs/distilbert_sms_spam_model/
+outputs/*.joblib
+outputs/*.safetensors
+outputs/*.bin
+outputs/*.pt
+outputs/*.pth
+
+# Keep reports/charts trackable, but ignore ad-hoc prediction dumps.
+outputs/distilbert_test_predictions.csv
+
